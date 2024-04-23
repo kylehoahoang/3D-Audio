@@ -62,6 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AudioManager.cs" />
+    <Compile Include="Assets\FlyCamera.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
     <Compile Include="Assets\scripts\AudioRecorder.cs" />
     <Compile Include="Assets\scripts\CircularMotion.cs" />
@@ -99,6 +101,8 @@
     <Compile Include="Assets\scripts\spectogram\_Scripts\ParamCube.cs" />
     <Compile Include="Assets\scripts\VoiceFXModulations.cs" />
     <Compile Include="Assets\scripts\WeatherAnimator.cs" />
+    <Compile Include="Assets\Spectogram3D.cs" />
+    <Compile Include="Assets\TeddyPfanderScript.cs" />
     <None Include="Assets\shaders\granulator fractal.shader" />
     <Reference Include="UnityEngine.ARModule">
       <HintPath>M:/Unity/2019.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
