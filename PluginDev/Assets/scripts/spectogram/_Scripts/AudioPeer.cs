@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
+
 public class AudioPeer : MonoBehaviour
 {
     AudioSource _audioSource;
@@ -49,7 +49,7 @@ public class AudioPeer : MonoBehaviour
     void GetSpectrumAudioSource()
     {
 
-        _audioSource.GetSpectrumData(_samples, 0, FFTWindow.Blackman);
+        AudioListener.GetSpectrumData(_samples, 0, FFTWindow.Blackman);
 
     }
 
