@@ -10,3 +10,12 @@ While all other scenes in the project are self-contained and self-running, the â
 
 ### Further information ###
 For diagrams describing some of the demos and techniques used see [the slides from Unite Europe 2015](http://files.unity3d.com/janm/UniteEurope2015.pdf)
+
+### Instructions for Setup ###
+1. Clone/Download the repository.
+2. Download Unity Hub.
+3. In Unity Hub, select Add > Add Project from Disk. In the file window, select the directory of where the repository is downloaded.
+4. Install the necessary unity editor version.
+5. Open the Project with Unity Editor.
+6. Locate Build Settings and ensure the Build Settings is compatible with your personal device.
+7. Build and Run the Project.
